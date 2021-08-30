@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link href="styles/tailwind.min.css" rel="stylesheet">
+        <script id="MathJax-script" async
+                src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    </head>
+
+    <body>
+        <div class="page w-full xl:w-8/12 m-auto bg-white xl:mt-4 xl:mb-4">
+            <h2 class="pb-8 pt-24 sm:pt-32 xl:pt-40 text-4xl pr-6 pl-6 sm:pl-6 sm:pr-6 md:pl-40 md:pr-40">3-Handed Siteswaps</h2>
+            <!-- <h4 class="text-xl"> Jennifer Matthiesen </h4> -->
+            <h4 class="text-xl pb-8 xl:pb-12"> August 2021 </h4>
+            <div class="pb-5 sm:pb-20 xl:pb-32">
+                <div>
+                    <p class="pr-6 pl-6 sm:pl-6 sm:pr-6 md:pl-40 md:pr-40">
+                       There are basically two options to design a 3-handed siteswap. 
+                       The first, and more intuitive one is to consider the three hands and enumerate them.
+                       In other words, we split a valid siteswap (for example 78626) between 3 hands. 
+                       This will result in a globally equally long time between the throws. 
+                    </p>
+                </div>
+                <img class="object-center h-40 pb-2" src="">
+                <div>
+                    <p class="pr-6 pl-6 sm:pl-6 sm:pr-6 md:pl-40 md:pr-40">
+                        However as shown in the time sequence in in Fig. 1. 
+                        this will result in a locally uneven time gab between throws for juggler \(A\) using two hands, 
+                        even if the time between throws is globally the same.
+                     </p>
+                </div>
+                <div>
+                    <p class="pr-6 pl-6 sm:pl-6 sm:pr-6 md:pl-40 md:pr-40">
+                        Another method to design a 3-handed siteswap, is to regard a 4-handed siteswap, where one hand neither receiving nor throwing any objects.
+                        This is determent by a 0 on every second beat of juggler \(B\).
+                        Assuming we want to set every second beat of Juggler \(B\) to 0, which will result in a sequence like: \(? \: 0 \: ? \: 0 \: ? \: 0 \dots\), where the \(?\) is a placeholder for a throw.
+                        The throwing sequence of juggler \(A\) will have subsequential the same length \(n_A = n_B\).
+                        Combining that with the sequence of juggler (\B\), gives us a global patter with following structure: 
+                        
+                     </p>
+                </div>
+                <div>
+                    <p class="pr-6 pl-6 sm:pl-6 sm:pr-6 md:pl-40 md:pr-40 pt-5 pb-5 text-center">
+                        \(?_A \; - ?_B \; - ?_A \; - 0 \; - ?_A \; - ?_B \; - ?_A \; - 0 \dots \)
+                     </p>
+                </div>
+                <div>
+                    <p class="pr-6 pl-6 sm:pl-6 sm:pr-6 md:pl-40 md:pr-40">
+                        - A odd number of period length from a global pattern -> every juggler is throwing the same pattern, but starts on different points.
+                        - An equal number of period length of the global pattern cause that both jugglers can have different patterns.
+                        - if the period length /2 is even, will give a unique sequence to each hand of each juggler. 
+
+                        To isolate one hand of Juggler \(B\) (meaning giving it a unique sequence for just that very hand), results in a total period length of four time as long as the sequence of that very hand.
+                        
+                     </p>
+                </div>
+
+              
+            </div>
+        </div>
+    </body>
+</html>
