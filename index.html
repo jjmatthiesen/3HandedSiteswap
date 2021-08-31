@@ -20,7 +20,7 @@
                 <div>
                     <p class="pr-6 pl-6 sm:pl-6 sm:pr-6 md:pl-40 md:pr-40">
                        There are basically two options to design a 3-handed siteswap. 
-                       The first, and more intuitive one is to consider the three hands and enumerate them.
+                       The first, and more intuitive one, is to consider the three hands and enumerate them.
                        In other words, we split a valid siteswap (for example 86277) between 3 hands. 
                        This will result in a globally equally long time between the throws. 
                     </p>
@@ -160,10 +160,116 @@
                     </p>
                     <p class="pr-6 pl-6 sm:pl-6 sm:pr-6 md:pl-40 md:pr-40">                        
                         Adding the throws of juggler A will give us \(?8?0?7?0?7?0\). 
-                        We can now calculate the interface. It can be determined by marking where the throws of B will land (counting the length of throws and mark where they land), which is:  \(7--\:0\:7--\:0-8-0\) 
-                        als then translating the thrown into selfs (S) and passe (P) according to their value: \(PSSSPSSSSSSS\). 
-                        Any valid siteswap with that same interface, will be a valid 3-handed siteswap. 
+                        We can now calculate the interface. It can be determined by marking where the throws of B will land (counting the length of throws and mark where they land), which is:  \(7--\:0\:7--\:0-8-0\). 
+                        
                     </p>
+                </div>
+                <table class="beats pt-5 pb-2">
+                    <tr class="border-b border-black">
+                        <td class="w-24 h-8 text-left">throw</td>
+                        <td class="w-10 h-8">\(?_A\)</td>
+                        <td class="w-10 h-8">\(8_B\)</td>
+                        <td class="w-10 h-8">\(?_A\)</td>
+                        <td class="w-10 h-8">\(0\)</td>
+                        <td class="w-10 h-8">\(?_A\)</td>
+                        <td class="w-10 h-8">\(7_B\)</td>
+                        <td class="w-10 h-8">\(?_A\)</td>
+                        <td class="w-10 h-8">\(0\)</td>
+                        <td class="w-10 h-8">\(?_A\)</td>
+                        <td class="w-10 h-8">\(7_B\)</td>
+                        <td class="w-10 h-8">\(?_A\)</td>
+                        <td class="w-10 h-8">\(0\)</td>
+                    </tr>
+                    <tr class="border-b border-black text-xs">
+                        <td class="w-24 text-left">landing on</td>
+                        <td class="w-10">\(7\)</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">\(0\)</td>
+                        <td class="w-10">\(7\)</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">\(0\)</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">\(8\)</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">\(0\)</td>
+                    </tr>
+                    <tr class="border-b border-black text-xs">
+                        <td class="w-40 text-left">we need objects to arrive at</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">x</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10                    <ul>
+                            <li>860677067706</li>
+                            <li>860677067805</li>
+                            <li>860678057706</li>
+                            <li>860678057805</li>
+                            <li>880477067706</li>
+                            <li>880477067805</li>
+                            <li>880478057706</li>
+                            <li>880478057805</li>
+                            <li>884067706770</li>
+                            <li>884067805770</li>
+                            <li>888027706770</li>
+                            <li>888027805770</li>
+                        </ul>">\(\)</td>
+                        <td class="w-10">x</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">\(\)</td>
+                        <td class="w-10">\(\)</td>
+                    </tr>
+                    <tr class="border-b border-black">
+                        <td class="w-24 h-8 text-left">interface</td>
+                        <td class="w-10 h-8">\(P\)</td>
+                        <td class="w-10 h-8">\(P\)</td>
+                        <td class="w-10 h-8">\(S\)</td>
+                        <td class="w-10 h-8">\(S\)</td>
+                        <td class="w-10 h-8">\(P\)</td>
+                        <td class="w-10 h-8">\(P\)</td>
+                        <td class="w-10 h-8">\(S\)</td>
+                        <td class="w-10 h-8">\(S\)</td>
+                        <td class="w-10 h-8">\(S\)</td>
+                        <td class="w-10 h-8">\(S\)</td>
+                        <td class="w-10 h-8">\(S\)</td>
+                        <td class="w-10 h-8">\(S\)</td>
+                    </tr>
+                </table> 
+                <div>
+                    <p class="pr-6 pl-6 sm:pl-6 sm:pr-6 md:pl-40 md:pr-40">
+                        We can see in line two on which point in time objects are arriving. 
+                        To be able to trow the initial defined throws, further objects have to arrive at these beats. 
+                        Meaning, we mark all beats where we need a club to throw, but none is arriving yet.  
+                        We then translating the thrown into selfs (S) and passes (P) according to their value. 
+                        The before marked beats are likewise arriving passes.
+                        This gives us the interface \(PPSSPPSSSSSSS\). 
+                        Any valid siteswap with that same interface, can be a valid 3-handed siteswap. 
+                    </p>
+                </div>  
+                <div>
+                    <p class="pr-6 pl-6 sm:pl-6 sm:pr-6 md:pl-40 md:pr-40 pt-5 text-left">
+                        Here are 3-handed siteswaps, where juggler \(B\) has the pattern 807070:
+                    </p>
+                </div>  
+                <div class="pr-6 pl-6 sm:pl-6 sm:pr-6 md:pl-40 md:pr-40">
+                    <ul class="text-left">
+                        <li>860677067706 \(\rightarrow A\):(S S P S P S) ; \(B\):(H0P0P0)</li>
+                        <li>860677067805 \(\rightarrow A\):(S S P S Heff Zap) ; \(B\):(H0P0P0)</li>
+                        <li>860678057706 \(\rightarrow A\):(S S Heff Zap P S) ; \(B\):(H0P0P0)</li>
+                        <li>860678057805 \(\rightarrow A\):(S S Heff Zap Heff Zap) ; \(B\):(H0P0P0)</li>
+                        <li>880477067706 \(\rightarrow A\):(Heff Hold P S P S) ; \(B\):(H0P0P0)</li>
+                        <li>880477067805 \(\rightarrow A\):(Heff Hold P S Heff Zap) ; \(B\):(H0P0P0)</li>
+                        <li>880478057706 \(\rightarrow A\):(Heff Hold Heff Zap P S) ; \(B\):(H0P0P0)</li>
+                        <li>880478057805 \(\rightarrow A\):(Heff Hold Heff Zap Heff Zap) ; \(B\):(H0P0P0)</li>
+                        <li>884067706770 \(\rightarrow A\):(Heff Hold S P S P) ; \(B\):(H0P0P0)</li>
+                        <li>884067805770 \(\rightarrow A\):(Heff Hold S Heff Zap P) ; \(B\):(H0P0P0)</li>
+                        <li>888027706770 \(\rightarrow A\):(Heff Heff Zip P S P) ; \(B\):(H0P0P0)</li>
+                        <li>888027805770 \(\rightarrow A\):(Heff Heff Zip Heff Zap P) ; \(B\):(H0P0P0)</li>
+                    </ul>
                 </div>
               
             </div>
