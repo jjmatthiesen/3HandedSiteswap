@@ -1,6 +1,6 @@
 html body {
     text-align: center;
-    font-family: "Computer Modern Serif";
+    font-family: "Computer Modern Serif", serif;
 }
 p {
     text-align: justify;
