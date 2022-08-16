@@ -1,2 +1,2 @@
 # 3HandedSiteswap
-[-> see website](https://jayflyaway.github.io/3HandedSiteswap/)
+[-> see website](https://jjmatthiesen.github.io/3HandedSiteswap/)
